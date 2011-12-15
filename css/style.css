@@ -1,0 +1,34 @@
+body {
+	font-family: Helvetica, Arial, Sans-Serif;
+	line-height: 24px;
+	background-color: #e2e0dc;
+	font-size: 18px;
+}
+
+#container {
+	margin: 0 auto;
+	padding:0;
+	width: 941px;
+}
+
+nav {
+	position: fixed;
+	bottom: 50px;
+}
+
+#global-menu {
+	list-style: none;
+}
+#global-menu li {
+	position: absolute;
+}
+
+#global-menu li:not(:first-child) {
+	opacity: 0;
+	z-index: -100;
+}
+
+#global-menu li:active {
+	margin-top: 1px;
+}
+
